@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Ben/Documents/GitHub/cz2001lab3/Insertionsort/main.cpp
+iostream
+-
+fstream
+-
+sstream
+-
+ctime
+-
+

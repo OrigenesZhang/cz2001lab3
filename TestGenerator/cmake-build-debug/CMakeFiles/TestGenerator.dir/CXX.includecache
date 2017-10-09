@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Ben/Documents/GitHub/cz2001lab3/TestGenerator/main.cpp
+iostream
+-
+fstream
+-
+ctime
+-
+cstring
+-
+
