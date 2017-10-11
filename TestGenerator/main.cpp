@@ -41,6 +41,10 @@ int main(){
 		/*for(int j=0; j<i; j++)
 			cout<<buff[j]<<' ';
 		cout<<endl;*/
+		//Descending order
+		/*for(int j=i-1; j>=0; j--)
+			cout<<buff[j]<<' ';
+		cout<<endl;*/
 	}
 	return 0;
 }
