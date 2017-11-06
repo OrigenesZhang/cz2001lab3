@@ -43,8 +43,8 @@ int main(){
 	if(E>V*(V-1)/2-V+1) E=V*(V-1)/2-V+1;
 	string_gen(V);
 	for(int i=1; i<V; i++){
-		if(dis(gen)&1) G[dis(gen)%10001].push_back(i);
-		else G[i].push_back(dis(gen)%10001);
+		if(dis(gen)&1) G[dis(gen)%i].push_back(i);
+		else G[i].push_back(dis(gen)%i);
 	}
 	while(cnt<E){
 		auto x=dis(gen)%V;
